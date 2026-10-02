@@ -16,6 +16,6 @@ ax=0
 
 for i in range(len(x)):
     for j in range(len(x[0])):
-        ax=ax+x[j][i]
+        ax=ax+x[i][j]
     print(ax, end=" ")
     ax=0
